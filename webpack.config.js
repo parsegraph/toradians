@@ -4,7 +4,7 @@ module.exports = {
   entry: path.resolve(__dirname, "src/index.ts"),
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "TODO-PACKAGE-NAME.js",
+    filename: "toradians.js",
     globalObject: "this",
     library: "getTimeInMillis",
     libraryTarget: "umd",
