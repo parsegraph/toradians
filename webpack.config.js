@@ -6,7 +6,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "toradians.js",
     globalObject: "this",
-    library: "getTimeInMillis",
+    library: "toradians",
     libraryTarget: "umd",
   },
   module: {
