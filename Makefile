@@ -1,7 +1,7 @@
 DIST_NAME = toradians
 
 SCRIPT_FILES = \
-	src/index.ts
+	src/$(DIST_NAME).ts
 
 all: build lint test coverage esdoc
 
@@ -38,8 +38,9 @@ esdoc:
 doc: esdoc
 .PHONY: doc
 
-dist/$(DIST_NAME).js: $(SCRIPT_FILES)
+dist/$(DIST_NAME).js: package.json package-lock.json $(SCRIPT_FILES)
 	npm run build
+	mv -v dist/src/* dist/
 
 clean:
 	rm -rf dist .nyc_output
