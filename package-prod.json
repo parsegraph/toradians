@@ -1,0 +1,17 @@
+{
+    "name": "parsegraph-toradians",
+    "version": "1.4.3",
+    "description": "toradians",
+    "main": "dist/parsegraph-toradians.js",
+    "types": "dist/parsegraph-toradians.d.ts",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/parsegraph/toradians.git"
+    },
+    "author": "Rainback, Inc.",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/parsegraph/toradians/issues"
+    },
+    "homepage": "https://github.com/parsegraph/toradians#readme"
+  }
