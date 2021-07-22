@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-toradians",
-  "version": "1.4.3-dev",
+  "version": "1.4.4-dev",
   "description": "toRadians and toDegrees",
   "main": "dist/parsegraph-toradians.js",
   "types": "dist/parsegraph-toradians.d.ts",
@@ -72,8 +72,8 @@
     "express": "^4.17.1",
     "glslify-loader": "^2.0.0",
     "openssl": "^1.1.0",
-    "parsegraph-fuzzyequals": "^1.4.5",
-    "parsegraph-testsuite": "^1.4.2",
+    "parsegraph-fuzzyequals": "^1.4.6",
+    "parsegraph-testsuite": "^1.4.3",
     "raw-loader": "^4.0.1",
     "ts-mocha": "^8.0.0",
     "webgl-mock": "^0.1.7"

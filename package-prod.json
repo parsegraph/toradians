@@ -1,6 +1,6 @@
 {
     "name": "parsegraph-toradians",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "description": "toradians",
     "main": "dist/parsegraph-toradians.js",
     "types": "dist/parsegraph-toradians.d.ts",
