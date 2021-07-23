@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-toradians",
-  "version": "1.4.4-dev",
+  "version": "1.4.5-dev",
   "description": "toRadians and toDegrees",
   "main": "dist/parsegraph-toradians.js",
   "types": "dist/parsegraph-toradians.d.ts",

@@ -1,6 +1,6 @@
 {
     "name": "parsegraph-toradians",
-    "version": "1.4.4",
+    "version": "1.4.5",
     "description": "toradians",
     "main": "dist/parsegraph-toradians.js",
     "types": "dist/parsegraph-toradians.d.ts",
@@ -13,5 +13,8 @@
     "bugs": {
       "url": "https://github.com/parsegraph/toradians/issues"
     },
-    "homepage": "https://github.com/parsegraph/toradians#readme"
+    "homepage": "https://github.com/parsegraph/toradians#readme",
+    "dependencies": {
+      "parsegraph-fuzzyequals": "^1.4.6"
+    }
   }
