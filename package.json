@@ -1,17 +1,9 @@
 {
   "name": "parsegraph-toradians",
-  "version": "1.4.5-dev",
+  "version": "1.4.5",
   "description": "toRadians and toDegrees",
-  "main": "dist/parsegraph-toradians.js",
-  "types": "dist/parsegraph-toradians.d.ts",
-  "scripts": {
-    "coverage": "nyc npm run test",
-    "test": "mocha -r @babel/register -r jsdom-global/register --recursive",
-    "demo": "node demo/demo.js",
-    "autobuild": "webpack --watch --config webpack.config.js",
-    "build": "webpack --config webpack.config.js",
-    "build-prod": "NODE_ENV=production webpack --config webpack.prod.js"
-  },
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/parsegraph/toradians.git"
@@ -22,20 +14,6 @@
     "url": "https://github.com/parsegraph/toradians/issues"
   },
   "homepage": "https://github.com/parsegraph/toradians#readme",
-  "nyc": {
-    "extends": "@istanbuljs/nyc-config-babel",
-    "reporter": [
-      "html"
-    ],
-    "exclude": [
-      "test/**.js",
-      "dist/**.js"
-    ],
-    "reportDir": "dist/coverage"
-  },
-  "dependencies": {
-    "parsegraph-fuzzyequals": "^1.4.6"
-  },
   "devDependencies": {
     "@babel/cli": "^7.17.3",
     "@babel/core": "^7.17.4",
@@ -57,6 +35,7 @@
     "jest": "^27.5.1",
     "jsdom": "^19.0.0",
     "jsdom-global": "^3.0.2",
+    "parsegraph-fuzzyequals": "^1.4.6",
     "prettier": "^2.5.1",
     "raw-loader": "^4.0.2",
     "source-map-loader": "^3.0.1",
